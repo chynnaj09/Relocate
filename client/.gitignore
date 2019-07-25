@@ -7,6 +7,12 @@
 
 # testing
 /coverage
+/dist
+/lib
+/es
+.idea
+.history
+
 
 # production
 /build
