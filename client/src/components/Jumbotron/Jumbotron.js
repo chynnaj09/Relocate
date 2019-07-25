@@ -5,7 +5,7 @@ class Jumbotron extends Component {
     super(props);
     this.state = {
       videoURL:
-        "https://player.vimeo.com/external/301906284.sd.mp4?s=4706f989eb2074f2b0ef71be696fb49877f1c538&profile_id=164&oauth2_token_id=57447761"
+        "https://player.vimeo.com/external/304735769.hd.mp4?s=a60812db50c3b8aae17f3f1a6843f79698b2bb08&profile_id=174"
     };
   }
   render() {
