@@ -1,0 +1,8 @@
+.navbar-light .navbar-brand {
+  color: aliceblue !important;
+  background: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: aliceblue !important;
+}
