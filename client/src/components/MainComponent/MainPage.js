@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./MainPage.css";
 
 import {
@@ -60,10 +60,9 @@ export default class Example extends React.Component {
           </Collapse>
         </Navbar>
 
-
-        <div class="overlay-desc">
-        <p>Relocate</p>
-     </div>
+        <div className="overlay-desc">
+          <p>Relocate</p>
+        </div>
       </div>
     );
   }
