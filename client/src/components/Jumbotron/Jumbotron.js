@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import "./Jumbotron.css";
 
-
-
-// Class for the entire background 
+// Class for the entire background
 class Jumbotron extends Component {
   constructor(props) {
     super(props);
@@ -14,15 +12,14 @@ class Jumbotron extends Component {
   }
 
   // Background Video on Loop
-      render() {
-
-        return (
-          <video id="background-video" loop autoPlay muted>
-            <source src={this.state.videoURL} type="video/mp4" />
-            <source src={this.state.videoURL} type="video/ogg" />
-            Your browser does not support the video tag.
-          </video>
-        );
+  render() {
+    return (
+      <video id="background-video" loop autoPlay muted>
+        <source src={this.state.videoURL} type="video/mp4" />
+        <source src={this.state.videoURL} type="video/ogg" />
+        Your browser does not support the video tag.
+      </video>
+    );
   }
 }
 export default Jumbotron;

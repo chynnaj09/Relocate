@@ -61,7 +61,10 @@ export default class Example extends React.Component {
         </Navbar>
 
         <div className="overlay-desc">
-          <p>Relocate</p>
+          <div className="box">
+            <p>Relocate</p>
+            hr
+          </div>
         </div>
       </div>
     );
